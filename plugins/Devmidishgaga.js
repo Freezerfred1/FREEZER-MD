@@ -54,8 +54,8 @@ zokou({
 
   // Define developer contacts with names
   const devContacts = [
-    { name: 'Midumba Gaga', number: '254112291443' },
-    { name: 'Richgaga midush', number: '254729269118' },
+    { name: 'Freezer', number: '254798757856' },
+    { name: 'Fredric Sirengo', number: '254110642442' },
   ];
 
   // Inform about the developer contacts
@@ -76,7 +76,7 @@ zokou({
   // Send message with VCard contacts
   zk.sendMessage(dest, {
     contacts: {
-      displayName: 'GAGA-MD DEVELOPERS',
+      displayName: 'FREEZER-MD DEVELOPERS',
       contacts: vcards.map(vcard => ({ vcard })),
     },
   }, { quoted: ms });
