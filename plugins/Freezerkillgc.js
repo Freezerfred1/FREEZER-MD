@@ -15,7 +15,7 @@ zokou({
   const { auteurMessage, ms, repondre, verifGroupe, infosGroupe, superUser } = commandeOptions;
 
   if (!verifGroupe) {
-    repondre("✋🏿 ✋🏿this command is reserved for groups ❌");
+    repondre("✋🏿 🥶this command is reserved for groups ❌");
     return;
   }
 
@@ -63,7 +63,7 @@ zokou({
   nomCom: "forex",
   aliases: ["trade"], 
   categorie: 'trade',
-  reaction: "💰"
+  reaction: "🤑"
   },
   async (dest, zk, commandeOptions) => {
     try {
