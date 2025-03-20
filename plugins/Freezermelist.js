@@ -135,7 +135,7 @@ zokou({ nomCom: "help", aliases: ["liste", "helplist", "commandlist"], categorie
     let responseMessage = `
  ${greeting}, *${nomAuteurMessage || "User"}*
  
-╭━━━ 〔 MASTER 〕━━━┈⊷
+╭━━━ 〔 FREEZER 〕━━━┈⊷
 ┃╭──────────────
 ┃│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* 
 ┃│▸ *ᴘʀᴇғɪx:* *[ ]*
@@ -153,7 +153,7 @@ zokou({ nomCom: "help", aliases: ["liste", "helplist", "commandlist"], categorie
 
 `;
 
-    let commandsList = "*GAGA MD PLUGINS*\n";
+    let commandsList = "*FREEZER MD PLUGINS*\n";
     const sortedCategories = Object.keys(categorizedCommands).sort();
     let commandIndex = 1;
 
@@ -166,7 +166,7 @@ zokou({ nomCom: "help", aliases: ["liste", "helplist", "commandlist"], categorie
         commandsList += "\n│◦╰─────────────\n╰──────────────┈\n";
     }
 
-    commandsList += readMore + "\n> REGARDS TO RICH GAGA MIDUSH\n";
+    commandsList += readMore + "\n> REGARDS TO ICONIC FREEZER\n";
 
     try {
         const senderName = message.sender || message.from;
@@ -175,10 +175,10 @@ zokou({ nomCom: "help", aliases: ["liste", "helplist", "commandlist"], categorie
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "GAGA MD" ,
-                    body: "REGARDS TO RICH-GAGA-MIDUSH" ,
+                    title: "FREEZER MD" ,
+                    body: "REGARDS TO ICONIC-FREEZER" ,
                     thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg" ,
-                    sourceUrl:'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' ,
+                    sourceUrl:'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' ,
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
