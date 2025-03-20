@@ -56,7 +56,7 @@ zokou({
   } = _0x3675ea;
   const _0x435d09 = await fetch("https://nekos.life/api/v2/fact");
   const _0x2cbfd7 = await _0x435d09.json();
-  _0x145c63("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + _0x2cbfd7.fact + "\n\n\n\n\n*◇* Engine by Gaga md\n\n╔═════◇\n║◇ *KEEP USING GAGA MD BOT*\n╚════════════════════> ");
+  _0x145c63("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + _0x2cbfd7.fact + "\n\n\n\n\n*◇* Engine by Freezer md\n\n╔═════◇\n║◇ *KEEP USING FREEZER MD BOT*\n╚════════════════════> ");
 });
 zokou({
   'nomCom': "quotes",
@@ -70,12 +70,12 @@ zokou({
   } = _0x3b03d0;
   const _0x425fe4 = await fetch("https://favqs.com/api/qotd");
   const _0x5629f8 = await _0x425fe4.json();
-  const _0x1551ee = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + _0x5629f8.quote.body + "_\n\n\n◇ *AUTHOR:* " + _0x5629f8.quote.author + "\n\n\n\n\n◇ _Engine by:_ *GAGA-MF*\n\n\n╔═════◇\n║◇ *KEEP USING GAGA MD BOT*\n╚════════════════════> ";
+  const _0x1551ee = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + _0x5629f8.quote.body + "_\n\n\n◇ *AUTHOR:* " + _0x5629f8.quote.author + "\n\n\n\n\n◇ _Engine by:_ *FREEZER-MD*\n\n\n╔═════◇\n║◇ *KEEP USING FREEZER MD BOT*\n╚════════════════════> ";
   _0x46c05e(_0x1551ee);
 });
 zokou({
   'nomCom': 'define',
-  'reaction': '😁',
+  'reaction': '🥶',
   'categorie': "Search"
 }, async (_0x5125b5, _0x490f5c, _0x9633c6) => {
   const {
@@ -118,7 +118,7 @@ zokou({
     const _0x940320 = await _0x4cd9c3.lyrics();
     const _0x56e1cc = await _0x4cd9c3.artist.name;
     const _0x370b40 = await _0x4cd9c3.title;
-    const _0x38c824 = "*GAGA MD BOT LYRICS FINDER*\n\n*TITLE* - " + _0x370b40 + "\n\n*ARTIST* - " + _0x56e1cc + "\n\n" + _0x940320;
+    const _0x38c824 = "*FREEZER MD BOT LYRICS FINDER*\n\n*TITLE* - " + _0x370b40 + "\n\n*ARTIST* - " + _0x56e1cc + "\n\n" + _0x940320;
     await _0x347cd3.sendMessage(_0x34d58e, {
       'image': {
         'url': "./media/lyrics.jpg"
