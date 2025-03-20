@@ -27,13 +27,13 @@ async function uploadToCatbox(filePath) {
 zokou({
   'nomCom': 'url2',       // Command to trigger the function
   'categorie': "General", // Command category
-  'reaction': '🥷'    // Reaction to use on command
+  'reaction': '🥶'    // Reaction to use on command
 }, async (groupId, client, context) => {
   const { msgRepondu, repondre } = context;
 
   // If no message (image/video/audio) is mentioned, prompt user
   if (!msgRepondu) {
-    return repondre("Please mention an image, video, or audio for Gaga Md to convert.");
+    return repondre("Please mention an image, video, or audio for Freezer Md to convert.");
   }
 
   let mediaPath;
@@ -60,7 +60,7 @@ else if (msgRepondu.documentMessage) {
     mediaPath = await client.downloadAndSaveMediaMessage(msgRepondu.audioMessage);
   } else {
     // If no media (image, video, or audio) is found, prompt user
-    return repondre("Please mention an image, video, or audio for Beltah Md to convert.");
+    return repondre("Please mention an image, video, or audio for Freezer Md to convert.");
   }
 
   try {
