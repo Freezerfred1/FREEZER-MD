@@ -15,7 +15,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to Gaga or Gaga md owner*");
+    return repondre("*This command is restricted to Freezer or Freezer md owner*");
   }
 
   // Ensure Heroku app name and API key are set
@@ -47,7 +47,7 @@ zokou({
       );
 
       // Notify the user about the update and redeployment
-      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of Xgaga bots.*");
+      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of Freezer-Md bots.*");
       console.log("Build details:", response.data);
     } catch (error) {
       // Handle any errors during the redeployment process
