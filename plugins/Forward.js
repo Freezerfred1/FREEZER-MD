@@ -23,8 +23,8 @@ zokou({ nomCom: "forward", categorie: 'Group', reaction: "📤" }, async (dest, 
       // Send the message directly to the member's DM
       await zk.sendMessage(memberNumber, { text: mess });
     }
-    repondre('*Xgaga bots Forwarded Your Message To All group members in their DMs.*');
+    repondre('*Freezer bots Forwarded Your Message To All group members in their DMs.*');
   } else {
-    repondre('*Only My Owner or Gaga to excute this command.*');
+    repondre('*Only My Owner or Freezer to excute this command.*');
   }
 });
