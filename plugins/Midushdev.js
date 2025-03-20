@@ -55,12 +55,12 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🌚" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Gaga", numero: "254112291443" },
-      { nom: "᚛Midumba᚜", numero: "254729269118" },
+      { nom: "Freezer", numero: "254798757856" },
+      { nom: "᚛Fredric sirengo᚜", numero: "254110642442" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 welcome to Gaga md ! here is the dev :\n\n";
+    let message = "👋 welcome to Freezer md ! here is the dev :\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
