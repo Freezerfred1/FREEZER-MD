@@ -61,7 +61,7 @@ zokou({
             const message = `
 *Hello 👋 ${nomAuteurMessage}* 
 ╭───────────────━⊷
-║ 🥷𝙶𝙰𝙶𝙰 𝙼𝙳🥷
+║ 🥶FREEZER MD🥶
 ╰───────────────━⊷
 ╭───────────────━⊷
 ║💡 *ɴᴀᴍᴇ:* ɢᴀɢᴀ ᴍᴅ
@@ -84,10 +84,10 @@ _________________________________
                 contextInfo: {
                     mentionedJid: [auteurMessage],
                     externalAdReply: {
-                        title: "GAGA MD",
+                        title: "FREEZER MD",
                         body: "Star 🌟 and fork repo to deploy" ,
                         thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
+                        sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
@@ -128,7 +128,7 @@ _________________________________
             const message = `
 *Hello 👋 ${nomAuteurMessage}*
 ╭───────────────━⊷
-║ 🥷 𝙶𝙰𝙶𝙰 𝙼𝙳 🥷
+║ 🥶FREEZER MD🥶
 ╰───────────────━⊷
 ╭───────────────━⊷
 ║💡 *ɴᴀᴍᴇ:* ʙᴇʟᴛᴀʜ ᴍᴅ
@@ -151,10 +151,10 @@ _________________________________
                 contextInfo: {
                     mentionedJid: [auteurMessage],
                     externalAdReply: {
-                        title: "𝙶𝙰𝙶𝙰 𝙼𝙳",
+                        title: "FREEZER MD",
                         body: "Star 🌟 and fork repo to deploy" ,
                         thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
+                        sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
@@ -196,7 +196,7 @@ zokou({
             const message = `
 *Hello 👋 ${nomAuteurMessage}*
 ╭───────────────━⊷
-║  🥷 𝙶𝙰𝙶𝙰 𝙼𝙳 🥷
+║  🥶FREEZER MD🥶
 ╰───────────────━⊷
 ╭───────────────━⊷
 ║💡 *ɴᴀᴍᴇ:* ʙᴇʟᴛᴀʜ ᴍᴅ
@@ -219,7 +219,7 @@ _________________________________
                 contextInfo: {
                     mentionedJid: [auteurMessage],
                     externalAdReply: {
-                        title: "𝙶𝙰𝙶𝙰 𝙼𝙳",
+                        title: "FREEZER MD",
                         body: "Star 🌟 and fork repo to deploy",
                         thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
                         sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
