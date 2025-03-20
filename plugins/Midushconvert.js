@@ -7,7 +7,7 @@ function createCanvacordCommand(commandName, canvacordFunction) {
   zokou({
     nomCom: "convert",
     categorie: "Image-Edit",
-    reaction: "🎉"
+    reaction: "🥳"
   }, async (origineMessage, zk, commandeOptions) => {
     const { ms, msgRepondu, auteurMsgRepondu } = commandeOptions;
   const clientId = 'b40a1820d63cd4e' ;
