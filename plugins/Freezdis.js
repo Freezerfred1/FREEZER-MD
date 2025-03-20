@@ -70,9 +70,9 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "Gaga-md",
+            author: "Freezer-md",
             type: StickerTypes.FULL,
-            categories: ['🤩', '🎉'],
+            categories: ['🥶', '🎉'],
             id: '12345',
             quality: 50,
             background: '#000000'
@@ -487,9 +487,9 @@ zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
           let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
   
           let stickerMess = new Sticker(media, {
-            pack: 'Gaga-tag',
+            pack: 'Freezer-tag',
             type: StickerTypes.CROPPED,
-            categories: ["🤩", "🎉"],
+            categories: ["🥶", "🎉"],
             id: "12345",
             quality: 70,
             background: "transparent",
