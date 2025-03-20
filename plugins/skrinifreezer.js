@@ -11,7 +11,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by xgaga bots*`;
+    const cap = `*Screenshot taken by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -42,7 +42,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -73,7 +73,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -104,7 +104,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -136,7 +136,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -167,7 +167,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -199,7 +199,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -231,7 +231,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by xgaga bots*`;
+    const cap = `*Screenshot taken by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -262,7 +262,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by xgaga bots*`;
+    const cap = `*Screenshot taken by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -294,7 +294,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by xgaga bots*`;
+    const cap = `*Screenshot taken by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -325,7 +325,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -356,7 +356,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -388,7 +388,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -420,7 +420,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken xgaga bots*`;
+    const cap = `*Screenshot taken freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -452,7 +452,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot by xgaga bots*`;
+    const cap = `*Screenshot by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -484,7 +484,7 @@ zokou({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by xgaga bots*`;
+    const cap = `*Screenshot taken by freezer bots*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
