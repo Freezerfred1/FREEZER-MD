@@ -44,7 +44,7 @@ zokou({ nomCom: "tgs", categorie: "Mods", reaction: "🥷" }, async (dest, zk, c
       type = 'not animated sticker';
     }
 
-    let msg = `*Gaga Md tgsticker*
+    let msg = `*Freezer Md tgsticker*
 
 *Name:* ${stickers.data.result.name}
 *Type:* ${type}
@@ -65,7 +65,7 @@ Downloading...`;
 
       const sticker = new Sticker(buffer.data, {
         pack: nomAuteurMessage,
-        author: "𝙶𝙰𝙶𝙰 𝙼𝙳",
+        author: "FREEZER MD",
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
         id: '12345',
