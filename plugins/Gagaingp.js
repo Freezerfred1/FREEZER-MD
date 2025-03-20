@@ -11,7 +11,7 @@ zokou({
   'nomCom': "ping",
   'desc': "To check bot response time",
   'Categorie': "General",
-  'reaction': '✈️',
+  'reaction': '🥶',
   'fromMe': "true"
 }, async (_0x4cfdc6, _0x41d5d3, _0x546e3d) => {
   const {
@@ -23,23 +23,23 @@ zokou({
   const _0x451c3b = _0x5a815c.map(_0x526b71 => "🔴" + _0x526b71 + "🔴").join("\n");
   const _0x41d2b1 = {
     'externalAdReply': {
-      'title': "GAGA MD",
+      'title': "FREEZER MD",
       'body': "ᴘɪɴɢ : " + _0x451c3b,
-      'sourceUrl': "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F",
+      'sourceUrl': "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t",
       'thumbnailUrl': "https://files.catbox.moe/0zqr00.jpg",
       'mediaType': 0x1,
       'showAdAttribution': true
     }
   };
   const _0x54ea81 = {
-    'displayName': "GAGA MD",
-    'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:G \nORG:BELTAH Nexus;\nTEL;type=CELL;type=VOICE;waid=254114141192:254737681758 \nEND:VCARD"
+    'displayName': "FREEZER MD",
+    'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:G \nORG:FREEZER Nexus;\nTEL;type=CELL;type=VOICE;waid=254798757856:254110642442 \nEND:VCARD"
   };
   await _0x41d5d3.sendMessage(_0x4cfdc6, {
-    'text': "𝗚𝗔𝗚𝗔 𝗠𝗗 𝗦𝗣𝗘𝗘𝗗",
+    'text': "FREEZER 𝗠𝗗 𝗦𝗣𝗘𝗘𝗗",
     'contextInfo': _0x41d2b1,
     'contacts': {
-      'displayName': "GAGA MD Verified Contact",
+      'displayName': "FREEZER MD Verified Contact",
       'contacts': [_0x54ea81]
     },
     'quoted': _0x2c968b
@@ -61,23 +61,23 @@ zokou({
   const _0x2f3abc = new Date(_0x766aaf * 1000).toISOString().substr(11, 8);
   const _0xae590 = {
     'externalAdReply': {
-      'title': "GAGA SETTINGS",
+      'title': "FREEZER SETTINGS",
       'body': " ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ʙᴏᴛ ɴᴇᴠᴇʀ sʟᴇᴇᴘs 👻",
-      'sourceUrl': "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F",
+      'sourceUrl': "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t",
       'thumbnailUrl': "https://files.catbox.moe/0zqr00.jpg",
       'mediaType': 0x1,
       'showAdAttribution': true
     }
   };
   const _0x297b69 = {
-    'displayName': "XGAGA UPDATES",
-    'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:BELTAH XBOT\nORG: BELTAH XBOT Nexus;\nTEL;type=CELL;type=VOICE;waid=254114141192 :254737681758\nEND:VCARD"
+    'displayName': "MR FREEZER UPDATES",
+    'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:FREEZER XBOT\nORG: FREEZER XBOT Nexus;\nTEL;type=CELL;type=VOICE;waid=254798757856 :254110642442\nEND:VCARD"
   };
   await _0x161605.sendMessage(_0x205206, {
-    'text': "𝗚𝗔𝗚𝗔 𝗠𝗗 :" + _0x2f3abc,
+    'text': "FREEZER MD :" + _0x2f3abc,
     'contextInfo': _0xae590,
     'contacts': {
-      'displayName': "GAGA TECH Verified Contact",
+      'displayName': "FREEZER TECH Verified Contact",
       'contacts': [_0x297b69]
     },
     'quoted': _0x4e9ae0
