@@ -1,4 +1,4 @@
-/* GAGA MD BOT */
+/* FREEZER MD BOT */
 
 const util = require('util');
 const fs = require('fs-extra');
@@ -88,10 +88,10 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     let infoMsg = `
 > *${greeting}*
-╭━━━〔 𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓𝐒 〕━━━
+╭━━━〔 FREEZER 𝐁𝐎𝐓𝐒 〕━━━
 ┌════════════════⊷
 ╭─────────────────
- ࿇ *Bot name :* XGAGA BOTS
+ ࿇ *Bot name :* FREEZER BOTS
  ࿇ *User:*  ${nomAuteurMessage}  
  ࿇ *Time :*  ${temps}
  ࿇ *Date :* ${date} 
@@ -99,7 +99,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
  ࿇ *Uptime :*  ${runtime(process.uptime())}  
  ࿇ *plugins :* ${cm.length}
 └───────────────────
- ━〔 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃 〕━`;
+ ━〔 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃 〕━`;
 
     let menuMsg =`
 > © regards\n${readmore} `;
@@ -126,7 +126,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     }
 
     menuMsg += `
-> © 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃`;
+> © 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃`;
 
     
     try {
@@ -136,10 +136,10 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
                 mentionedJid: [nomAuteurMessage],
                showAdAttribution: true,
                 externalAdReply: {
-                    title: "𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃",
-                    body: "𝚁𝙴𝙶𝙰𝚁𝙳𝚂 𝚃𝙾 𝚁𝙸𝙲𝙷-𝙶𝙰𝙶𝙰-𝙼𝙸𝙳𝚄𝚂𝙷",
+                    title: "𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃",
+                    body: "𝚁𝙴𝙶𝙰𝚁𝙳𝚂 𝚃𝙾 ICONIC-FREEZER",
                     thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                    sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F',
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -195,10 +195,10 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 
     let infoMsg = `
 > *${greeting}*
-╭━━━〔 𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓𝐒 〕━━━
+╭━━━〔 FREEZER 𝐁𝐎𝐓𝐒 〕━━━
 ┌════════════════⊷
 ╭─────────────────
- ࿇ *Bot name :* XGAGA BOTS
+ ࿇ *Bot name :* FREEZER BOTS
  ࿇ *User:*  ${nomAuteurMessage}  
  ࿇ *Time :*  ${temps}
  ࿇ *Date :* ${date} 
@@ -206,7 +206,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
  ࿇ *Uptime :*  ${runtime(process.uptime())}  
  ࿇ *plugins :* ${cm.length}
 └───────────────────
- ━〔 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃 〕━`;
+ ━〔 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃 〕━`;
 
     let menuMsg =`
 > © regards\n${readmore} `;
@@ -233,7 +233,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
     }
 
     menuMsg += `
-> © 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃`;
+> © 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃`;
 
     
     try {
@@ -243,10 +243,10 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
                 mentionedJid: [nomAuteurMessage],
                showAdAttribution: true,
                 externalAdReply: {
-                    title: "𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃",
-                    body: "𝚁𝙴𝙶𝙰𝚁𝙳𝚂 𝚃𝙾 𝚁𝙸𝙲𝙷-𝙶𝙰𝙶𝙰-𝙼𝙸𝙳𝚄𝚂𝙷",
+                    title: "𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃",
+                    body: "𝚁𝙴𝙶𝙰𝚁𝙳𝚂 𝚃𝙾 ICONIC-FREEZER",
                     thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                    sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F',
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -301,10 +301,10 @@ zokou({ nomCom: "dashboard", categorie: "General" }, async (dest, zk, commandeOp
 
     let infoMsg = `
 > *${greeting}*
-╭━━━〔 𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓𝐒 〕━━━
+╭━━━〔 FREEZER 𝐁𝐎𝐓𝐒 〕━━━
 ┌════════════════⊷
 ╭─────────────────
- ࿇ *Bot name :* XGAGA BOTS
+ ࿇ *Bot name :* FREEZER BOTS
  ࿇ *User:*  ${nomAuteurMessage}  
  ࿇ *Time :*  ${temps}
  ࿇ *Date :* ${date} 
@@ -312,7 +312,7 @@ zokou({ nomCom: "dashboard", categorie: "General" }, async (dest, zk, commandeOp
  ࿇ *Uptime :*  ${runtime(process.uptime())}  
  ࿇ *plugins :* ${cm.length}
 └───────────────────
- ━〔 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃 〕━`;
+ ━〔 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃 〕━`;
 
     let menuMsg =`
 > © regards\n${readmore} `;
@@ -339,7 +339,7 @@ zokou({ nomCom: "dashboard", categorie: "General" }, async (dest, zk, commandeOp
     }
 
     menuMsg += `
-> © 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃`;
+> © 𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃`;
 
     
     try {
@@ -349,10 +349,10 @@ zokou({ nomCom: "dashboard", categorie: "General" }, async (dest, zk, commandeOp
                 mentionedJid: [nomAuteurMessage],
                showAdAttribution: true,
                 externalAdReply: {
-                    title: "𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 𝐆𝐀𝐆𝐀 𝐌𝐃",
-                    body: "𝚁𝙴𝙶𝙰𝚁𝙳𝚂 𝚃𝙾 𝚁𝙸𝙲𝙷-𝙶𝙰𝙶𝙰-𝙼𝙸𝙳𝚄𝚂𝙷",
+                    title: "𝐊𝐄𝐄𝐏 𝐔𝐒𝐈𝐍𝐆 FREEZER 𝐌𝐃",
+                    body: "𝚁𝙴𝙶𝙰𝚁𝙳𝚂 𝚃𝙾 ICONIC-FREEZER",
                     thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                    sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F',
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
