@@ -16,7 +16,7 @@ const { default: axios } = require('axios');
 
 
 
-zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "tagall", categorie: 'Group', reaction: "🥶" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser } = commandeOptions
 
@@ -32,7 +32,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        🌟 *AGAGA-MD* 🌟
+        🌟 *FREEZER-MD* 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
@@ -292,7 +292,7 @@ zokou({ nomCom: "add", categorie: 'Group', reaction: "👨🏿‍💼" }, async 
 		const isImAdmin = await isAdmin(participants, message.client.user.jid)
 		if (!isImAdmin) return await message.send(`_I'm not admin._`)
 		match = match || message.reply_message.jid
-		if (!match) return await message.send('Example : add 254748387615')
+		if (!match) return await message.send('Example : add 254798757856')
 		// if (!match.startsWith('@@')) {
 		// 	match = jidToNum(match)
 		// 	const button = await genButtonMessage(
@@ -699,7 +699,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'GAGA-MD-tag',
+          pack: 'FREEZER-MD-tag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -983,9 +983,9 @@ zokou({
 
   const groups = await client.groupFetchAllParticipating();
   const groupIds = Object.values(groups).map(group => group.id);
-  await repondre("*ALPHA-MD is sending your message to all groups ,,,💀*...");
+  await repondre("*FREEZER-MD is sending your message to all groups ,,,💀*...");
 
-  const broadcastMessage = `*🌟 Broadcast by Gaga md🌟*\n\n🀄 Message: ${arg.join(" ")}\n\n🗣️ Author: ${nomAuteurMessage}`;
+  const broadcastMessage = `*🌟 Broadcast by FREEZER MD🌟*\n\n🀄 Message: ${arg.join(" ")}\n\n🗣️ Author: ${nomAuteurMessage}`;
   for (let groupId of groupIds) {
     await client.sendMessage(groupId, {
       image: { url: 'https://i.imgur.com/HDLN3If.jpeg' },
