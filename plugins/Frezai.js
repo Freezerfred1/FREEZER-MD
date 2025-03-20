@@ -1,5 +1,5 @@
-//gaga
-//gaga
+//freezer
+//freezer
 const {
   zokou
 } = require("../framework/zokou");
@@ -18,7 +18,7 @@ zokou({
     arg: _0x13678d
   } = _0x45dc6a;
   if (!_0x13678d || !_0x13678d[0x0]) {
-    return _0x559c5a("Hii, im Gaga md ,a whatsapp bot developed by Richardgag.How are you today?");
+    return _0x559c5a("Hii, im Freezer md ,a whatsapp bot developed by Richardgag.How are you today?");
   }
   try {
     const _0x526e2f = await traduire(_0x13678d.join(" "), {
