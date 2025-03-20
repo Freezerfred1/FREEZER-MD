@@ -93,7 +93,7 @@ zokou({
       text: response,
       contextInfo: {
         externalAdReply: {
-          title: "XGAGA BOTS AI SEARCH",
+          title: "FREEZER BOTS AI SEARCH",
           body: `keep learning`, // Format the uptime before sending
           thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg", // Replace with your bot profile photo URL
           sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F", // Your channel URL
@@ -277,7 +277,7 @@ zokou({
                 'isForwarded': true,
                 'forwardedNewsletterMessageInfo': {
                   'newsletterJid': "120363238139244263@newsletter",
-                  'newsletterName': "GAGA-MD",
+                  'newsletterName': "FREEZER-MD",
                   'serverMessageId': 0x8f,
                   'sourceUrl': ""
                 }
