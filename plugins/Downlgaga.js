@@ -16,10 +16,10 @@ zokou({nomCom : "igdl" , categorie : "Download"},async (dest , zk , commandeOpti
     let igvid = await axios('https://api.vihangayt.com/downloader/ig?url='+link)
 
     if (igvid.data.data.data[0].type == 'video') {
-    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *ALONE-MD*",gifPlayback : false },{quoted : ms}) 
+    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *FREEZER-MD*",gifPlayback : false },{quoted : ms}) 
     }
     else {
-        zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *ALONE-MD*"})
+        zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *FREEZER-MD*"})
     }
   
   } catch (e) {repondre("erreur survenue lors du téléchargement \n " + e)}
@@ -49,8 +49,8 @@ async (dest, zk, commandeOptions) => {
         titre: ${result.title}
         Lien: ${result.url}
       `;
-       zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : " ```ALONE MD FB DOWNLOADER``` "},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *ALONE-MD*' }, { quoted: ms });
+       zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : " ```FREEZER MD FB DOWNLOADER``` "},{quoted : ms}) ;
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *FREEZER-MD*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -114,11 +114,11 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
         zk.sendMessage(dest, {
-      text: "GAGA MD FB DOWNLOADER",
+      text: "FREEZER MD FB DOWNLOADER",
       contextInfo: {
         externalAdReply: {
           title: "Enjoy...",
-          body: "GAGA MD FACEBOOK DOWNLOADER",
+          body: "FREEZER MD FACEBOOK DOWNLOADER",
           thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg",
           sourceUrl: conf.GURL,
           mediaType: 1,
@@ -126,7 +126,7 @@ async (dest, zk, commandeOptions) => {
         }
       }
     }, { quoted: ms });
-      zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *ALONE-MD*' }, { quoted: ms });
+      zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *FREEZER-MD*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -162,11 +162,11 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
         zk.sendMessage(dest, {
-      text: "GAGA MD FB DOWNLOADER",
+      text: "FREEZER MD FB DOWNLOADER",
       contextInfo: {
         externalAdReply: {
           title: "Enjoy...",
-          body: "GAGA MD FACEBOOK DOWNLOADER",
+          body: "FREEZER MD FACEBOOK DOWNLOADER",
           thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg",
           sourceUrl: conf.GURL,
           mediaType: 1,
@@ -174,7 +174,7 @@ async (dest, zk, commandeOptions) => {
         }
       }
     }, { quoted: ms });
-      zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *ALONE-MD*' }, { quoted: ms });
+      zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *FREEZER-MD*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -190,7 +190,7 @@ async (dest, zk, commandeOptions) => {
 zokou({
   nomCom: "Facebook",
   categorie: "Download",
-  reaction: "⭐"
+  reaction: "🥶"
 },
 async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
@@ -210,11 +210,11 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
         zk.sendMessage(dest, {
-      text: "GAGA MD FB DOWNLOADER",
+      text: "FREEZER MD FB DOWNLOADER",
       contextInfo: {
         externalAdReply: {
           title: "Enjoy...",
-          body: "GAGA MD FACEBOOK DOWNLOADER",
+          body: "FREEZER MD FACEBOOK DOWNLOADER",
           thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg",
           sourceUrl: conf.GURL,
           mediaType: 1,
@@ -222,7 +222,7 @@ async (dest, zk, commandeOptions) => {
         }
       }
     }, { quoted: ms });
-      zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *ALONE-MD*' }, { quoted: ms });
+      zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *FREEZER-MD*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
