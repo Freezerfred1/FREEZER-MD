@@ -148,7 +148,7 @@ zokou(_0x22fb16, async (_0x459d0f, _0x58b776, _0x13dd55) => {
             'interactiveMessage': proto.Message.InteractiveMessage.create({
               'body': proto.Message.InteractiveMessage.Body.create(_0x313a56),
               'footer': proto.Message.InteractiveMessage.Footer.create({
-                'text': "> *POWERED BY GAGA-MD*"
+                'text': "> *POWERED BY FREEZER-MD*"
               }),
               'header': proto.Message.InteractiveMessage.Header.create(_0x5c8ed3),
               'nativeFlowMessage': proto.Message.InteractiveMessage.NativeFlowMessage.create(_0x128a35),
@@ -157,7 +157,7 @@ zokou(_0x22fb16, async (_0x459d0f, _0x58b776, _0x13dd55) => {
                 'isForwarded': true,
                 'forwardedNewsletterMessageInfo': {
                   'newsletterJid': "120363238139244263@newsletter",
-                  'newsletterName': "GAGA-MD",
+                  'newsletterName': "FREEZER-MD",
                   'serverMessageId': 0x8f,
                   'sourceUrl': ""
                 }
@@ -191,7 +191,7 @@ zokou(_0x2b8880, async (_0x28aa27, _0x7dfe40, _0x123970) => {
   } = _0x123970;
   try {
     if (!_0x33cb7c || _0x33cb7c.length === 0) {
-      return _0x5e622d("Hello am *GAGA-MD.* an AI developed by Gaga.\n\n What help can I offer you today?");
+      return _0x5e622d("Hello am *FREEZER-MD.* an AI developed by Freezer.\n\n What help can I offer you today?");
     }
     const _0x1a66fc = _0x33cb7c.join(" ");
     const _0x49794f = await fetch("https://api.gurusensei.workers.dev/llama?prompt=" + _0x1a66fc);
@@ -220,7 +220,7 @@ zokou(_0x2b8880, async (_0x28aa27, _0x7dfe40, _0x123970) => {
             'interactiveMessage': proto.Message.InteractiveMessage.create({
               'body': proto.Message.InteractiveMessage.Body.create(_0xc1d67e),
               'footer': proto.Message.InteractiveMessage.Footer.create({
-                'text': "> *POWERED BY GAGA-MD*"
+                'text': "> *POWERED BY FREEZER-MD*"
               }),
               'header': proto.Message.InteractiveMessage.Header.create(_0x1d89a4),
               'nativeFlowMessage': proto.Message.InteractiveMessage.NativeFlowMessage.create(_0x52fd13),
@@ -229,7 +229,7 @@ zokou(_0x2b8880, async (_0x28aa27, _0x7dfe40, _0x123970) => {
                 'isForwarded': true,
                 'forwardedNewsletterMessageInfo': {
                   'newsletterJid': "120363238139244263@newsletter",
-                  'newsletterName': "GAGA-MD",
+                  'newsletterName': "FREEZER-MD",
                   'serverMessageId': 0x8f,
                   'sourceUrl': ""
                 }
@@ -301,7 +301,7 @@ zokou(_0x1f4e54, async (_0x28ef9a, _0x366231, _0x4c269a) => {
       thumbnail: _0x12cf19,
       news: _0x220547
     } = _0x266529;
-    const _0x3e56df = "*GAGA-MD TECH NEWS*\n\n" + _0x220547 + "\n\n*Powered by © France King*";
+    const _0x3e56df = "*FREEZER-MD TECH NEWS*\n\n" + _0x220547 + "\n\n*Powered by © Iconic *";
     const _0x443c13 = {
       url: _0x12cf19
     };
@@ -340,13 +340,13 @@ zokou(_0x5b25f4, async (_0x6ad15c, _0x57e88d, _0x37c0f7) => {
     if (!_0x31f341.ok) {
       return _0x2cfe25("Failed to generate pairing code. Please try again later.");
     }
-    await _0x2cfe25("*A MOMENT Gaga-MD IS GETTING YOUR PAIRING CODE*");
+    await _0x2cfe25("*A MOMENT FREEZER-MD IS GETTING YOUR PAIRING CODE*");
     const _0x5ea553 = await _0x31f341.json();
     if (_0x5ea553 && _0x5ea553.code) {
       const _0x181f5f = _0x5ea553.code;
       await _0x2cfe25("Your pairing code for number *" + _0x427ddf + "* is:");
       await _0x2cfe25("```" + _0x181f5f + "```");
-      await _0x2cfe25("> *Powered by Gaga-MD*");
+      await _0x2cfe25("> *Powered by FREEZER-MD);
     } else {
       await _0x2cfe25("Could not retrieve the pairing code. Please check the number and try again.");
     }
@@ -432,7 +432,7 @@ zokou(_0x1c3b19, async (_0x3217e6, _0x294d5e, _0x2c3f2d) => {
   }
 });
 const _0x5f47c8 = {
-  nomCom: "Xgaga",
+  nomCom: "FREEZER",
   reaction: '📡',
   categorie: 'AI'
 };
@@ -477,7 +477,7 @@ zokou(_0x1db11b, async (_0x4db48a, _0x4255e6, _0x2b68b2) => {
     };
     const _0x19d47c = {
       image: _0x5b1ca9,
-      caption: "*Powered by GAGA-MD*"
+      caption: "*Powered by FREEZER-MD*"
     };
     const _0x2916aa = {
       quoted: _0x5f250d
@@ -560,7 +560,7 @@ const _0x3321e6 = {
   nomCom: "best-wallp",
   aliases: ["bestwal", "best", 'bw'],
   reaction: '🙌',
-  categorie: "GAGA PICS"
+  categorie: "FREEZER PICS"
 };
 zokou(_0x3321e6, async (_0x39514f, _0x373333, _0x5d4a6b) => {
   const {
@@ -577,7 +577,7 @@ zokou(_0x3321e6, async (_0x39514f, _0x373333, _0x5d4a6b) => {
   const _0x4d78d9 = {
     image: _0x258619
   };
-  _0x4d78d9.caption = "*POWERED BY GAGA MD*";
+  _0x4d78d9.caption = "*POWERED BY FREEZER-MD*";
   const _0xed4676 = {
     quoted: _0x47aa78
   };
