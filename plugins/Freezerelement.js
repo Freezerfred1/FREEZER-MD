@@ -24,7 +24,7 @@ zokou({
           title: "ɢᴀɢᴀ ᴍᴅ ᴛᴇᴄʜ ɴᴇᴡs",
           body: "keep Exploring The internet", 
           thumbnailUrl: 'https://files.catbox.moe/n3b0gm.jpg', 
-          sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F', 
+          sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t', 
           mediaType: 1,
           showAdAttribution: true, 
         },
@@ -53,7 +53,7 @@ zokou({
           title: "Bible Reference Required",
           body: "Please provide a book, chapter, and verse.",
           thumbnailUrl: "https://files.catbox.moe/n3b0gm.jpg", // Replace with a suitable thumbnail URL
-          sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F',
+          sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
           mediaType: 1,
           showAdAttribution: true,
         },
@@ -71,7 +71,7 @@ zokou({
             title: "Invalid Bible Reference",
             body: "ʙᴇʟᴛᴀʜ ᴍᴅ needs a valid book, chapter, and verse.",
             thumbnailUrl: "https://files.catbox.moe/n3b0gm.jpg", // Replace with a suitable thumbnail URL
-            sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F',
+            sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
             mediaType: 1,
             showAdAttribution: true,
           },
@@ -102,7 +102,7 @@ zokou({
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
           thumbnailUrl: "https://files.catbox.moe/n3b0gm.jpg", 
-          sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' ,
+          sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' ,
           showAdAttribution: true, 
         },
       },
@@ -116,7 +116,7 @@ zokou({
           title: "Error Fetching Bible Passage",
           body: "Please try again later.",
           thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg", // Replace with a suitable thumbnail URL
-          sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+          sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
           mediaType: 1,
           showAdAttribution: true,
         },
@@ -135,7 +135,7 @@ zokou({
   const term = arg.join(" ");
 
   if (!term) {
-    return repondre("GAGA MD requires a term to define.");
+    return repondre("FREEZER MD requires a term to define.");
   }
 
   try {
@@ -153,11 +153,11 @@ zokou({
         text: definitionMessage,
         contextInfo: {
           externalAdReply: {
-            title: "GAGA MD DICTIONARY",
+            title: "FREEZER MD DICTIONARY",
             body: `Definition of ${term}`,
             mediaType: 1,
             thumbnailUrl: "https://files.catbox.moe/n3b0gm.jpg", 
-            sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F', 
+            sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t', 
             showAdAttribution: true, 
           },
         },
@@ -181,13 +181,13 @@ zokou({
   const { repondre, arg, ms } = commandeOptions;
 
   if (!arg || arg.length === 0) {
-    const replyText = "Example Usage: .code 254112xxxxx.";
+    const replyText = "Example Usage: .code 254798xxxxx.";
     return repondre(replyText);
   }
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*Gaga md is generating your pairing code ✅...*";
+    const replyText = "*Freezer md is generating your pairing code ✅...*";
     await repondre(replyText);
 
     // Prepare the API request
@@ -208,7 +208,7 @@ zokou({
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: "https://files.catbox.moe/n3b0gm.jpg", 
-            sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+            sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
             showAdAttribution: true, 
           },
         },
@@ -240,12 +240,12 @@ zokou({
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*A moment ..Gaga md is generating your pairing code ✅...*";
+    const replyText = "*A moment ..Freezer md is generating your pairing code ✅...*";
     await repondre(replyText);
 
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
-    const apiUrl = `https://gaga-session-wbc6.onrender.com/code?number=${encodedNumber}`;
+    const apiUrl = `https://freezer-session-wbc6.onrender.com/code?number=${encodedNumber}`;
 
     // Fetch the pairing code from the API
     const response = await axios.get(apiUrl);
@@ -257,11 +257,11 @@ zokou({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓",
+            title: "FREEZER-MD 𝐁𝐎𝐓",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg", 
-            sourceUrl:  'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F',
+            sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
             showAdAttribution: true, 
           },
         },
@@ -302,7 +302,7 @@ zokou({
     const thumb = data.image; // Assuming the API returns an 'image' property for the element thumbnail
 
     const formattedMessage = `
-*𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓 Element Information:*
+*FREEZER-MD 𝐁𝐎𝐓 Element Information:*
 🚀 *Name:* ${data.name}
 🚀 *Symbol:* ${data.symbol}
 🚀 *Atomic Number:* ${data.atomic_number}
@@ -318,11 +318,11 @@ Regards ${conf.BOT} `;
       text: formattedMessage,
       contextInfo: {
         externalAdReply: {
-          title: "𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓 ELEMENT INFORMATION",
+          title: "FREEZER-MD 𝐁𝐎𝐓 ELEMENT INFORMATION",
           body: "Here is the information you requested:",
           mediaType: 1,
           thumbnailUrl: thumb,
-          sourceUrl:  'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' ,
+          sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' ,
           showAdAttribution: true, 
         },
       },
@@ -372,17 +372,17 @@ zokou({
 👪 Followers: ${data.followers}
 🫶 Following: ${data.following}
 
-> 𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋`;
+> FREEZER-MD 𝐁𝐎𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋`;
 
     await zk.sendMessage(dest, {
       text: githubMessage,
       contextInfo: {
         externalAdReply: {
-          title: "𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓 GITHUB USER INFO",
+          title: "FREEZER-MD 𝐁𝐎𝐓 GITHUB USER INFO",
           body: `Information about ${data.login}`,
           mediaType: 1,
           thumbnailUrl: thumb,
-          sourceUrl:  'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' ,
+          sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' ,
           showAdAttribution: true,
         },
       },
@@ -414,7 +414,7 @@ You can use this email for temporary purposes. I will notify you if you receive 
           title: "Temporary Email Service",
           body: "Create temporary emails quickly and easily for privacy and security.",
           thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg" ,
-          sourceUrl:  'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' ,
+          sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' ,
           mediaType: 1,
           showAdAttribution: true
         }
@@ -441,7 +441,7 @@ You can use this email for temporary purposes. I will notify you if you receive 
                   title: "Temporary Email Notification",
                   body: "You received a new email on your temporary inbox. Check it out now!",
                   thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-                  sourceUrl:  'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F' ,
+                  sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' ,
                   mediaType: 1,
                   showAdAttribution: true
                 }
