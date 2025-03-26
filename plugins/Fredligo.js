@@ -26,10 +26,10 @@ zokou({ nomCom: "videologo", categorie: "Logo-tech", reaction: "🥷" }, async (
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "GAGA MD",
-        body: "Regards, Gaga",
+        title: "FREEZER MD",
+        body: "Regards, Freezer",
         thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-        sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F",
+        sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t"channel,
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -78,7 +78,7 @@ zokou({ nomCom: "videologo", categorie: "Logo-tech", reaction: "🥷" }, async (
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `*Downloaded by Gaga Md*`,
+            caption: `*Downloaded by Freezer-Md*`,
           }, { quoted: ms });
         }
       }
