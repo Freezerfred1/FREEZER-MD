@@ -37,14 +37,14 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
   *Hey🖐️* *${nomAuteurMessage}*
   
-  *GAGA MD IS RUNNING WITH [${cm.length}0] PLUGINS*
+  *FREEZER-MD IS RUNNING WITH [${cm.length}0] PLUGINS*
 
   *More commands will be out soon*
  
-  *Thakns for choosing Xgaga Bots*
+  *Thakns for choosing FREEZER-MD*
 
-  > Rich Gaga Midush 
-  > © xgaga bots
+  > Iconic freezer
+  > © FREEZER-MD
  `;
     
 let menuMsg = `
