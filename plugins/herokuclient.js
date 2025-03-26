@@ -13,7 +13,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Beltah Tech 👻*");
+    return repondre("*This command is restricted to the bot owner or Freezer Tech 👻*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -29,7 +29,7 @@ zokou({
     // Fetch config vars from Heroku API
     const configVars = await heroku.get(baseURI);
 
-    let str = '*╭───༺XGAGA BOTS Heroku vars༻────╮*\n\n';
+    let str = '*╭───༺FREEZER-MD BOTS Heroku vars༻────╮*\n\n';
     
     // Loop through the returned config vars and format them
     for (let key in configVars) {
@@ -56,14 +56,14 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Gaga*");
+    return repondre("*This command is restricted to the bot owner or FREEZER*");
   }
 
   const appname = s.HEROKU_APP_NAME;
   const herokuapi = s.HEROKU_API_KEY;
 
   if (!arg || arg.length !== 1 || !arg[0].includes('=')) {
-    return repondre('Incorrect Usage:\nProvide the key and value correctly.\nExample: setvar OWNER_NAME=Beltah Tech 254');
+    return repondre('Incorrect Usage:\nProvide the key and value correctly.\nExample: setvar OWNER_NAME=Freezer Tech 254');
   }
 
   const [key, value] = arg[0].split('=');
