@@ -5,7 +5,7 @@ const pino = require("pino");
 const fs = require("fs-extra");
 const path = require("path");
 const conf = require("./set");
-const session = conf.session.replace(/BELTAH-MD;;;=>/g, "");
+const session = conf.session.replace(/FREEZER-MD;;;=>/g, "");
 require("dotenv").config({ path: "./config.env" });
 
 let auto_reply_message = "Hello,Im offline and will respond soon.";
@@ -36,7 +36,7 @@ setTimeout(() => {
     const sockOptions = {
       version,
       logger: pino({ level: "silent" }),
-      browser: ['GAGA-MD', "safari", "1.0.0"],
+      browser: ['FREEZER-MD', "safari", "1.0.0"],
       printQRInTerminal: true,
       fireInitQueries: false,
       shouldSyncHistoryMessage: true,
@@ -70,7 +70,7 @@ setTimeout(() => {
         const callerId = callData[0].from;
         await zk.rejectCall(callId, callerId);
         await zk.sendMessage(callerId, {
-          text: "📵I AM GAGA-MD |📵 I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD."
+          text: "📵I AM FREEZER-MD |📵 I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD."
         });
       }
     });
