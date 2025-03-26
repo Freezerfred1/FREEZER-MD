@@ -15,7 +15,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to Gaga or Gaga md user*");
+    return repondre("*This command is restricted to Freezer or Freezer-md user*");
   }
 
   // Ensure Heroku app name and API key are set
