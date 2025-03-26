@@ -72,10 +72,10 @@ zokou({
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
-            title: "𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃",
+            title: "FREEZER-MD BOT SONG DOWNLOAD",
             body: videoDetails.title,
             mediaType: 1,
-            sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F",
+            sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t",
             thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg",
             renderLargerThumbnail: false,
             showAdAttribution: true,
@@ -87,10 +87,10 @@ zokou({
         mimetype: 'audio/mpeg',
         contextInfo: {
           externalAdReply: {
-            title: "𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃",
+            title: "FREEZER-MD BOT SONG DOWNLOAD",
             body: "",
             mediaType: 1,
-            sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F",
+            sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t",
             thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg",
             renderLargerThumbnail: false,
             showAdAttribution: true,
@@ -194,10 +194,10 @@ zokou({
         mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
-            title: "𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃",
+            title: "FREEZER-MD BOT SONG DOWNLOAD",
             body: videoDetails.title,
             mediaType: 1,
-            sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F",
+            sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t",
             thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg",
             renderLargerThumbnail: false,
             showAdAttribution: true,
@@ -209,10 +209,10 @@ zokou({
         mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
-            title: "𝐗𝐆𝐀𝐆𝐀 𝐁𝐎𝐓 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃",
+            title: "FREEZER-MD BOT SONG DOWNLOAD",
             body: videoDetails.title,
             mediaType: 1,
-            sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F",
+            sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t",
             thumbnailUrl: "https://files.catbox.moe/sfk02i.jpg",
             renderLargerThumbnail: false,
             showAdAttribution: true,
@@ -316,7 +316,7 @@ zokou({
             title: "ɢᴀɢᴀ ᴍᴅ ᴠɪᴅᴇᴏ 📷 ᴘʟᴀʏᴇʀ" ,
             body: "Tap her to follow our channel",
             mediaType: 1,
-            sourceUrl:"https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F",
+            sourceUrl:"https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t",
             thumbnailUrl: firstVideo.thumbnail,
             renderLargerThumbnail: false,
             showAdAttribution: true,
