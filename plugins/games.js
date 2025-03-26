@@ -218,7 +218,7 @@ zokou(
     
     nomCom: "wcg",
     categorie: "Games",
-    reaction: "🤫"
+    reaction: "🌚"
   
   },
   async (message, match) => {
