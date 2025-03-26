@@ -77,7 +77,7 @@ zokou({
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "GAGA MD",
+           title: "FREEZER-MD",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -1177,7 +1177,7 @@ zokou({
        forwardingScore: 999,
        isForwarded: true,
        externalAdReply: {
-         title: "Suhail-Md Broadcast",
+         title: "FREEZER-MD Broadcast",
          body: _0x553d05.senderName,
          renderLargerThumbnail: true,
          thumbnail: log0,
