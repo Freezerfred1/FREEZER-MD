@@ -32,7 +32,7 @@ zokou({
   const selectedAudio = audioFiles[Math.floor(Math.random() * audioFiles.length)];
 
   // External URLs for references
-  const murl = 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F';
+  const murl = 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t';
   const img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
 
   // Audio message object
@@ -46,7 +46,7 @@ zokou({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: '👻BELTAH X-BOT IS ONLINE👻',
+        title: '👻FREEZER-MD IS ONLINE👻',
         body: 'TAP HERE TO FOLLOW OUR CHANNEL',
         thumbnailUrl: img,
         sourceUrl: murl,
