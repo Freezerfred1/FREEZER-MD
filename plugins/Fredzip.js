@@ -52,9 +52,9 @@ zokou({
           mediaUrl: thumb,
           mediaType: 1,
           thumbnailUrl: thumb,
-          title: "𝙶𝙰𝙶𝙰 𝙼𝙳 APK Download",
+          title: "FREEZER MD APK Download",
           body: appDetails.BK9.name,
-          sourceUrl:  'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Using configured source URL
+          sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' , // Using configured source URL
           showAdAttribution: true
         }
       }
@@ -109,13 +109,13 @@ zokou({
       document: { url: apiUrl },
       fileName: `${fileName}.zip`,
       mimetype: "application/zip",
-      caption: `*Downloaded by Gaga Md*`,
+      caption: `*Downloaded by Freezer Md*`,
       contextInfo: {
         externalAdReply: {
           title: `${conf.BOT} GIT CLONE`,
-          body: "𝙶𝙰𝙶𝙰 𝙼𝙳",
+          body: "FREEZER-MD",
           thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg" ,
-          sourceUrl:  'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' ,
+          sourceUrl:  'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t' ,
           mediaType: 1,
           showAdAttribution: true
         }
