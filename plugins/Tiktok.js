@@ -94,7 +94,7 @@ zokou({
 
     // Prepare the message caption with video details
     const caption = `
-     *GAGA 𝐌𝐃 𝐅𝐁 𝐃𝐋*
+     *FREEZER-𝐌𝐃 𝐅𝐁 𝐃𝐋*
     |__________________________|
     |       *ᴅᴜʀᴀᴛɪᴏɴ*  
            ${videoData.result.duration}
@@ -160,12 +160,12 @@ zokou({
         if (responseText === '1') {
           await zk.sendMessage(dest, {
             video: { url: videoDetails.links.SD },
-            caption: "*GAGA MD*",
+            caption: "*FREEZER MD*",
           }, { quoted: messageContent });
         } else if (responseText === '2') {
           await zk.sendMessage(dest, {
             video: { url: videoDetails.links.HD },
-            caption: "*GAGA MD*",
+            caption: "*FREEZER MD*",
           }, { quoted: messageContent });
         } else if (responseText === '3') {
           await zk.sendMessage(dest, {
@@ -179,7 +179,7 @@ zokou({
             },
             mimetype: "audio/mpeg",
             fileName: "Alone.mp3",
-            caption: "*Gaga MD*"
+            caption: "*FREEZER MD*"
           }, {
             quoted: messageContent
           });
@@ -229,7 +229,7 @@ zokou({
     let tiktokData = await downloadTiktok(arg[0]);
 
     const caption = `
-     *Xgaga bots*
+     *Freezer-md bots*
     |__________________________|
     |-᳆        *ᴛɪᴛʟᴇ*  
      ${tiktokData.result.title}
@@ -276,12 +276,12 @@ zokou({
         if (responseText === '1') {
           await zk.sendMessage(keithdl, {
             video: { url: tiktokLinks.dl_link.download_mp4_1 },
-            caption: "*GAGA MD*",
+            caption: "*FREEZER MD*",
           }, { quoted: messageContent });
         } else if (responseText === '2') {
           await zk.sendMessage(keithdl, {
             video: { url: tiktokLinks.dl_link.download_mp4_2 },
-            caption: "*GAGA MD*",
+            caption: "*Freezer MD*",
           }, { quoted: messageContent });
         } else if (responseText === '3') {
           await zk.sendMessage(keithdl, {
