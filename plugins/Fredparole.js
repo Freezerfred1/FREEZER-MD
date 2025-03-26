@@ -1,4 +1,4 @@
-//BELTAHMD BOT ✨ 
+//FREEZER-MD BOT ✨ 
 
 
 
