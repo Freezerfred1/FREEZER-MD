@@ -31,7 +31,7 @@ D ☞ tiger 🐯 video logo
         title: "ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ 👻",
         body: "ᴛᴀᴘ ʜᴇʀᴇ ᴛᴏ ғᴏʟʟᴏᴡ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ",
         thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-        sourceUrl: "https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F",
+        sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
