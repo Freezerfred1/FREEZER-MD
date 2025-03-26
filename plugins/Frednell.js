@@ -1,4 +1,4 @@
-/* 🅱🅴🅻🆃🅰🅷-🅼🅳 🅱🅾🆃 */
+/* FREEZER-MD BOT */
 
 const util = require('util');
 const fs = require('fs-extra');
@@ -87,12 +87,12 @@ zokou({ nomCom: "channel", categorie: "General" }, async (dest, zk, commandeOpti
     const formattedTotalUsers = totalUsers.toLocaleString();
 
     let infoMsg = `
-*${greeting} ${nomAuteurMessage}* Welcome to BELTAH XBOT official WhatsApp channel.Click on the button Below to follow our channel.
+*${greeting} ${nomAuteurMessage}* Welcome to FREEZER-MD BOT official WhatsApp channel.Click on the button Below to follow our channel.
 
 CURRENT TIME IS ${temps} AND THE CURRENT DATE IS ${date}.`;
 
     let menuMsg = `
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐇𝐀𝐂𝐊𝐈𝐍𝐆 𝐓𝐄𝐀𝐌`;
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 FREEZER 𝐇𝐀𝐂𝐊𝐈𝐍𝐆 𝐓𝐄𝐀𝐌`;
 
     // Sort categories alphabetically and generate menu
   //const sortedCategories = Object.keys(coms).sort();
@@ -117,7 +117,7 @@ CURRENT TIME IS ${temps} AND THE CURRENT DATE IS ${date}.`;
 
    // menuMsg += `
    // ┏┻━━━━━━━━━━━━━━━┻┓
- //   > © BELTAH TECH 254
+ //   > © FREEZER TECH 254
   //  ┗━━━━━━━━━━━━━━━━━┛`;
 
 
@@ -125,7 +125,7 @@ CURRENT TIME IS ${temps} AND THE CURRENT DATE IS ${date}.`;
     const fullImageUrl = "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg"; // Full image URL
     const smallThumbnailUrl = "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -139,7 +139,7 @@ CURRENT TIME IS ${temps} AND THE CURRENT DATE IS ${date}.`;
         ptt: true, // Send as a voice note
         contextInfo: {
           externalAdReply: {
-            title: `💦 Adios ${contactName}\nBeltah Tech 254 🇰🇪`, // Your contact in WhatsApp status format
+            title: `💦 Adios ${contactName}\nFreezer Tech 254 🇰🇪`, // Your contact in WhatsApp status format
             body: "Yoh don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
@@ -157,9 +157,9 @@ CURRENT TIME IS ${temps} AND THE CURRENT DATE IS ${date}.`;
                 mentionedJid: [nomAuteurMessage],
                showAdAttribution: true,
                 externalAdReply: {
-                    title: "⭕🛑 𝐁𝐄𝐋𝐓𝐀𝐇 𝐗𝐁𝐎𝐓 ⭕🛑 ",
+                    title: "⭕🛑 FREEZER-MD BOT ⭕🛑 ",
                     body: "TAP HERE TO FOLLOW OUR CHANNEL",
-                    sourceUrl: 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F',
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t',
                     mediaType: 0x1,
                     renderLargerThumbnail: true
                 }
