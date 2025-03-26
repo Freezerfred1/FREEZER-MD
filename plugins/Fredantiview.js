@@ -62,7 +62,7 @@ zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
       repondre('Mention the message that you want to save');
     }
   } else {
-    repondre('This command can only be excuted by Gaga or Gaga md user');
+    repondre('This command can only be excuted by Freezer or Freezer md user');
   }
 });
 
@@ -103,7 +103,7 @@ zokou({ nomCom: "vv", categorie: "Mods", reaction: "🧑‍🎓" }, async (dest,
       } else if (msgRepondu.stickerMessage) {
         let media = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage);
         let stickerMess = new Sticker(media, {
-          pack: 'GAGA-MD',
+          pack: 'FREEZER-MD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -123,6 +123,6 @@ zokou({ nomCom: "vv", categorie: "Mods", reaction: "🧑‍🎓" }, async (dest,
       repondre('Mention the message that you want to save');
     }
   } else {
-    repondre('This command can only be excuted by Gaga or Gaga md user');
+    repondre('This command can only be excuted by Freezer or Freezer md user');
   }
 });
