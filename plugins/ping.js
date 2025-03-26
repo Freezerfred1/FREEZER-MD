@@ -7,7 +7,7 @@ zokou(
   async (dest, zk, commandeOptions) => {
     console.log("Ping command triggered!");
 
-    let captionText = '*FREEZER-MD BOT \n\nXGaga\n\n> powered by Gaga! ';
+    let captionText = '*FREEZER-MD BOT \n\nXGaga\n\n> powered by Freezer! ';
 
     let videoUrl = "https://files.catbox.moe/njb2if.mp4";
     let audioUrl = "https://files.catbox.moe/cpjbnl.mp3";
