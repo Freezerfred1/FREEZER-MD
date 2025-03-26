@@ -45,7 +45,7 @@ zokou({
       });
 
       fs.unlinkSync(medis);
-      repondre("Bot Profile Picture Updated by Gaga md");
+      repondre("Bot Profile Picture Updated by Freezer md");
     } catch (error) {
       repondre("An error occurred while updating bot profile photo: " + error);
     }
