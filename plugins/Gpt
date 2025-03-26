@@ -51,7 +51,7 @@ zokou({
           title: "DARKGPT AI TOOL",
           body: `Enjoy`,
           thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg", // Replace with your bot profile photo URL
-          sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F", // Your channel URL
+          sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t", // Your channel URL
           mediaType: 1,
           showAdAttribution: true, // Verified badge
         },
@@ -96,7 +96,7 @@ zokou({
           title: "FREEZER BOTS AI SEARCH",
           body: `keep learning`, // Format the uptime before sending
           thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg", // Replace with your bot profile photo URL
-          sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F", // Your channel URL
+          sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t", // Your channel URL
           mediaType: 1,
           showAdAttribution: true, // Verified badge
         },
@@ -137,10 +137,10 @@ zokou({
       text: res,
       contextInfo: {
         externalAdReply: {
-          title: "XGAGA-BOTS GEMINI",
+          title: "FREEZER-MD-BOTS GEMINI",
           body: `Keep using AI`, // Format the uptime before sending
           thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg", // Replace with your bot profile photo URL
-          sourceUrl: "https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F", // Your channel URL
+          sourceUrl: "https://whatsapp.com/channel/0029Vb5mxL6F1YlTPss80Y2t", // Your channel URL
           mediaType: 1,
           showAdAttribution: true, // Verified badge
         },
@@ -203,7 +203,7 @@ zokou({
                 'isForwarded': true,
                 'forwardedNewsletterMessageInfo': {
                   'newsletterJid': "120363238139244263@newsletter",
-                  'newsletterName': "GAGA-MD",
+                  'newsletterName': "FREEZER-MD",
                   'serverMessageId': 0x8f,
                   'sourceUrl': ""
                 }
@@ -268,7 +268,7 @@ zokou({
             'interactiveMessage': proto.Message.InteractiveMessage.create({
               'body': proto.Message.InteractiveMessage.Body.create(_0xc1d67e),
               'footer': proto.Message.InteractiveMessage.Footer.create({
-                'text': "> *POWERED BY GAGA-MD*"
+                'text': "> *POWERED BY FREEZER-MD*"
               }),
               'header': proto.Message.InteractiveMessage.Header.create(_0x1d89a4),
               'nativeFlowMessage': proto.Message.InteractiveMessage.NativeFlowMessage.create(_0x52fd13),
