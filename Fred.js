@@ -3,7 +3,7 @@
   "description":"Best whatsapp bot created by FREDRICK SIRENGO",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/sfk02i.jpg",
-  "repository":"https://github.com/richgagamidush/XG-M",
+  "repository":"https://github.com/Freezerfred1/FREEZER-MD.git",
   "succes_url":"/",
   "stack":"container",
   "env":{
