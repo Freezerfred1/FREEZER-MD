@@ -1,6 +1,6 @@
 {
-  "name":"XGAGA BOTS",
-  "description":"Best whatsapp bot created by MUSTAFFA MK",
+  "name":"FREEZER BOTS",
+  "description":"Best whatsapp bot created by FREDRICK SIRENGO",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/sfk02i.jpg",
   "repository":"https://github.com/richgagamidush/XG-M",
@@ -77,7 +77,7 @@
        "BOT_NAME" : 
     {
     "description":"put A name for your bot",
-    "value":"Xgaga bots",
+    "value":"freezer bots",
     "required":false
 
     },
@@ -117,7 +117,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Gaga"
+    "value": "Freezer"
   },
     "NUMERO_OWNER":
   {
