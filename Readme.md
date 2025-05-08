@@ -2,7 +2,7 @@ DEPLOY
 
 1. Get session id by Pairing Code
     <br>
-<a href='https://zombie-session-id.onrender.com/' target="_blank"><img alt='SESSION ID' src="https://img.shields.io/badge/GET SESSION-h?color=red&style=for-the-badge&logo=XGAGA" width="220" height="38.45"/></a>
+<a href='https://freezer-session.onrender.com' target="_blank"><img alt='SESSION ID' src="https://img.shields.io/badge/GET SESSION-h?color=red&style=for-the-badge&logo=XGAGA" width="220" height="38.45"/></a>
 
 
 
